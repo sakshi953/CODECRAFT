@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="hero">
+        <div class="profile-photo">
+            <img src="sakshi.jpeg" alt="Profile Photo">
+        </div>
+        <h2>About Me</h2>
+        <p>Hello! I'm a passionate developer skilled in HTML, CSS, and JavaScript. I love creating interactive and responsive web applications. Check out my projects below to see my work!</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Personal Portfolio Website</h3>
+            <p>"My personal portfolio website highlights my skills, projects, and achievements as a frontend developer, featuring an interactive design and easy navigation."</p>
+            <a href="https://github.com/sakshi953/CODECRAFT/">View Project</a>
+
+        </div>
+        <div class="project">
+            <h3>To-do list</h3>
+            <p>"A web-based to-do list application that allows users to add, edit, delete, and mark tasks as completed. Built using HTML for structure, CSS for styling, and JavaScript for dynamic task management."</p>
+            <a href="">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Expense Tracker</h3>
+            <p>"A web application for tracking expenses, categorizing spending, setting budgets, and viewing financial reports with visualizations. Built to help users manage and analyze their financial habits."</p>
+            <a href="#">View Project</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 sakshi sutar. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
